@@ -28,7 +28,7 @@ function mostrarCard(serie: series): void {
       <div class="card-body">
         <h5 class="card-title">${serie.name}</h5>
         <p class="card-text">${serie.description}</p>
-        <a href=${serie.link} class="btn btn-primary">Link ver serie</a>
+        <a href=${serie.link} target = ${serie.link} >Link ver serie</a>
       </div>
     </div>
   `;

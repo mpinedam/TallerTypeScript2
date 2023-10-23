@@ -1,6 +1,8 @@
-import { listaseries } from "./data.js";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var data_js_1 = require("./data.js");
 var seriesTable = document.getElementById("serie");
-mostrarDatosSerie(listaseries);
+mostrarDatosSerie(data_js_1.listaseries);
 function mostrarDatosSerie(allseries) {
     allseries.forEach(function (serie) {
         var tbodyAprendiz = document.createElement("tr");
